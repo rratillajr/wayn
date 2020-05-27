@@ -1,0 +1,354 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("/img/mlacthall.jpg");
+    no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* background-size: cover;  */
+    background-position-y: -220px;
+    height: 100vh;
+    /* back-size:cover; */
+    position: center;
+    }
+
+#testimonials{
+    /* padding: 7% 15%; */
+    text-align: center;
+    background-color: white;
+    color: black;
+    
+    }
+    
+ .testimonial-image{
+    /* width:25%; */
+    width: 10px;
+    border-radius: 100%;
+    margin: 20px;
+ }
+
+.bottom-container{
+  text-align:center;
+  padding: 50px 0px 50px;
+  }
+
+
+#social-buttons{
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+  
+/* #id{
+  width:5%;
+}
+
+#.logo{
+  width:1%;
+  margin-top: 15px;
+  margin-left: 10px;
+} */
+
+.section.button{
+  background-color:red;
+}
+
+/* adjust manila city hall page for 1024px screen */
+@media screen and (max-width: 1023px)
+{
+  #intro {
+    background: url("/img/mlacthall.jpg");
+    no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-position-y: -600px;
+    }
+}
+
+/* adjust manila city hall page for 925px screen */
+@media screen and (max-width: 925px)
+{
+  #intro {
+    background: url("/img/mlacthall.jpg");
+    no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-position-y: -150px;
+    }
+}
+
+/* adjust manila city hall page for 320px screen */
+@media screen and (max-width: 320px)
+{
+  #intro {
+    background: url("/img/mlacthall.jpg");
+    no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-position-y: -120px;
+    }
+}
+
+/* psuedocode for nav bar menu */
+nav li a:hover{
+  background-color:#4285f4;
+ }
+
+
+footer h4{
+  text-align: center;
+}
+
+/* Modal Login */
+/* The Modal (background) */
+.modalLogin {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box -Login*/
+.modal-contentLogin {
+  background-color: #fefefe;
+  margin: 5.5% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 400px; /* Could be more or less, depending on screen size old working value is 30%*/
+}
+
+/* The Close Button -Login*/
+.closeLogin {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* The Close Button - Login */
+.closeLogin:hover,
+.closeLogin:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* @media screen and (max-width: 380px) { 
+  .modal { 
+      width: 95%;   
+  }  */
+/* End of Modal Login */
+
+
+/* Modal Register */
+/* The Modal (background) Register */
+.modalRegister {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box -Register*/
+.modal-contentRegister {
+  background-color: #fefefe;
+  margin: 5.5% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 400px; /* Could be more or less, depending on screen size --old working value is 30%*/
+}
+
+/* The Close Button -Register*/
+.closeRegister {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* The Close Button - Register */
+.closeRegister:hover,
+.closeRegister:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* @media screen and (max-width: 381px) { 
+    .regmodal { 
+        width: 95%;   
+    }  */
+
+/* testimonials section */
+  #features{
+    padding: 7% 15%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #features h1, h3{
+    font-weight: bold;
+  }
+
+  /* testimonial images */
+.feature-box img{
+  width:50%;
+  border-radius: 100%;
+  margin-bottom: 30px; /* distance between image and short bold testimonial */
+}
+
+.feature-box{
+  text-align:center;
+  padding 5%;
+  margin-top: 50px;
+  /* margin-bottom: 10px; */
+}
+
+.testimonials{
+  text-align: center;
+  margin-top: 40px; /* distance between bold testimonial and 3 images */
+  font-weight: bolder;
+  font-display: underline;
+  }
+
+.container.testimonials{
+ margin: 5px auto;
+ padding: 0px auto;
+}
+
+/* working -- Where are you Now*/
+.SiteName{
+  /* color:#deddfa; */
+  font-size: 100px;
+  font-family: 'Orbitron', sans-serif;
+  /* font-family:'Shadows Into Light', cursive; */
+  margin-top: 10px; 
+  color: #fff;
+  /* this is neon green -- > text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #39FF14, 0 0 20px #39FF14, 0 0 25px #39FF14, 0 0 30px #39FF14, 0 0 35px #39FF14;*/
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+
+.BelowSiteName{
+  color:#deddfa;
+  font-family: 'arial';
+  font-weight: bold;
+  margin-top:20px;
+}
+
+.button-copylink{
+  background-color: blue; /* or transparent */
+  padding: 8px 32px 3px; 
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  /* border: 1px solid blue; */
+  border-radius: 30px;
+  transition-duration: 0.4s;
+  margin-bottom: 0px;
+
+}
+
+ .button-copylink:hover{ 
+  background-color: #5f6caf; 
+
+} 
+
+.copylinktext{
+  color:white;
+  font-family:'roboto';
+  font-weight: bold;
+}
+
+/* detective blur before hover */
+.click-image{
+  -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
+  filter: blur(2px);
+  display: inline-block;
+  border-radius: 50%;
+  margin: 20px auto 10px;
+  background-color: lightblue;
+}
+
+/* detective not blur on hover */
+.click-image:hover{
+  -webkit-filter: blur(0px); /* Safari 6.0 - 9.0 */
+  filter: blur(0px);
+  display: inline-block;
+  border-radius: 50%;
+  margin: 20px auto 10px;
+  background-color: lightblue;
+}
+
+
+/* transparent box */
+div.transbox {
+  margin: 30px;
+  background-color: lightskyblue;
+  border: 1px solid transparent;
+  opacity: .4;
+}
+
+/* contents of transparent box */
+.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: white;
+  font-size: 50px;
+}
+
+
+@media screen and (max-width: 925px)
+{
+  .SiteName{
+    /* color:#deddfa; */
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    /* font-family:'Shadows Into Light', cursive; */
+    margin-top: 0px; 
+    color: #fff;
+    /* this is neon green -- > text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #39FF14, 0 0 20px #39FF14, 0 0 25px #39FF14, 0 0 30px #39FF14, 0 0 35px #39FF14;*/
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  }
+}
+
+@media screen and (max-width: 991px)
+{
+  .feature-box img{
+    width: 100px;
+  }
+}
+
+.view p{
+  color:#deddfa;
+  /* font-family: 'Orbitron', sans-serif; */
+  /* font-family: 'Comfortaa', cursive; */
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+}
