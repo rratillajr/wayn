@@ -1,14 +1,13 @@
 import firebase from 'firebase';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCi-YYV4iD8BO4cjJXT1DR2aSfNgCAAFSA",
-  authDomain: "wayn-7a033.firebaseapp.com",
-  databaseURL: "https://wayn-7a033.firebaseio.com",
-  projectId: "wayn-7a033",
-  storageBucket: "wayn-7a033.appspot.com",
-  messagingSenderId: "549087159332",
-  appId: "1:549087159332:web:5fcba8066b8096e411a4b1",
-  measurementId: "G-F9YEZ8ES96"
+  apiKey: "AIzaSyDbeuWmZ8KEr016vuR0uHUlwROPnhVWYSc",
+  authDomain: "ti-tids-demo.firebaseapp.com",
+  databaseURL: "https://ti-tids-demo.firebaseio.com",
+  projectId: "ti-tids-demo",
+  storageBucket: "ti-tids-demo.appspot.com",
+  messagingSenderId: "92954047239",
+  appId: "1:92954047239:web:b8f73fd068f41f2bc04ba2"
 };
 
 export const firebaseApp = firebase.initializeApp(firebaseConfig);
